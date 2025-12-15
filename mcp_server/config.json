@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "aibom-analysis": {
+      "command": "python",
+      "args": ["-m", "mcp_server.server"],
+      "cwd": "/Users/damian/Code/src/aibom-test",
+      "env": {
+        "PYTHONPATH": "/Users/damian/Code/src/aibom-test"
+      }
+    }
+  }
+}
+

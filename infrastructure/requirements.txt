@@ -1,0 +1,11 @@
+# AWS CDK Dependencies
+aws-cdk-lib>=2.150.0
+constructs>=10.0.0
+
+# CDK Constructs for specific services
+aws-cdk.aws-lambda-python-alpha>=2.150.0a0
+
+# Utilities
+pyyaml>=6.0
+boto3>=1.34.0
+
