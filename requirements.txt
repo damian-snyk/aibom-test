@@ -14,36 +14,36 @@ anthropic>=0.25.0         # Anthropic API (Claude 3, Claude 3.5)
 # --- Data Validation & Schema ---
 pydantic>=2.8.0           # Essential for validating data structures (inputs/outputs)
 
-# --- Deep Learning Frameworks ---
-torch>=2.2.0              # PyTorch - deep learning framework
-torchvision>=0.17.0       # PyTorch vision utilities and pretrained models
-torchaudio>=2.2.0         # PyTorch audio processing
-tensorflow>=2.16.0        # TensorFlow - ML platform
-tensorflow-hub>=0.16.0    # Pre-trained TensorFlow models
-transformers>=4.40.0      # Hugging Face Transformers (works with PyTorch/TF)
-datasets>=2.19.0          # Hugging Face Datasets
-accelerate>=0.30.0        # Hugging Face Accelerate for distributed training
-sentence-transformers>=2.7.0  # Sentence embeddings
+# --- Deep Learning Frameworks (commented out - heavy packages) ---
+# torch>=2.2.0              # PyTorch - deep learning framework
+# torchvision>=0.17.0       # PyTorch vision utilities and pretrained models
+# torchaudio>=2.2.0         # PyTorch audio processing
+# tensorflow>=2.16.0        # TensorFlow - ML platform
+# tensorflow-hub>=0.16.0    # Pre-trained TensorFlow models
+# transformers>=4.40.0      # Hugging Face Transformers (works with PyTorch/TF)
+# datasets>=2.19.0          # Hugging Face Datasets
+# accelerate>=0.30.0        # Hugging Face Accelerate for distributed training
+# sentence-transformers>=2.7.0  # Sentence embeddings
 
-# --- Traditional ML & Data Science ---
-scikit-learn>=1.4.0       # Traditional ML algorithms
-numpy>=1.26.0             # Numerical computing
-pandas>=2.2.0             # Data manipulation and analysis
-scipy>=1.13.0             # Scientific computing
+# --- Traditional ML & Data Science (commented out - heavy packages) ---
+# scikit-learn>=1.4.0       # Traditional ML algorithms
+# numpy>=1.26.0             # Numerical computing
+# pandas>=2.2.0             # Data manipulation and analysis
+# scipy>=1.13.0             # Scientific computing
 
-# --- NLP ---
-spacy>=3.7.0              # Industrial-strength NLP
-nltk>=3.8.0               # Natural Language Toolkit
+# --- NLP (commented out - heavy packages) ---
+# spacy>=3.7.0              # Industrial-strength NLP
+# nltk>=3.8.0               # Natural Language Toolkit
 
-# --- Data Visualization ---
-matplotlib>=3.8.0         # Plotting library
-seaborn>=0.13.0           # Statistical data visualization
-plotly>=5.22.0            # Interactive visualizations
+# --- Data Visualization (commented out - heavy packages) ---
+# matplotlib>=3.8.0         # Plotting library
+# seaborn>=0.13.0           # Statistical data visualization
+# plotly>=5.22.0            # Interactive visualizations
 
-# --- Vector Database / Retrieval (If using Knowledge Bases) ---
-opensearch-py>=2.6.0      # If you need custom access to OpenSearch Serverless
-chromadb>=0.5.0           # Vector database for embeddings
-faiss-cpu>=1.8.0          # Facebook AI Similarity Search
+# --- Vector Database / Retrieval (commented out - heavy packages) ---
+# opensearch-py>=2.6.0      # If you need custom access to OpenSearch Serverless
+# chromadb>=0.5.0           # Vector database for embeddings
+# faiss-cpu>=1.8.0          # Facebook AI Similarity Search
 
 # --- Utilities ---
 requests>=2.32.0          # Standard HTTP library for API calls
